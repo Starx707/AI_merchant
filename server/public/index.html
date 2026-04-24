@@ -1,0 +1,36 @@
+<!--
+source: https://freefrontend.com/css-chats/
+gif source: (pinterest link)
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="App.js"></script>
+    <title>Merchant</title>
+</head>
+<body>
+<section style="margin-top: -8vh; position: absolute; z-index: 2;">
+    <div style="background: black; display: flex; position: absolute; width: 100vw; ">
+        <div id="frameContainer" style="display: flex; justify-content: center;  align-items: center; width: 100%; height: 50%">
+            <img src="images/merchant-pleasant.gif" alt="Merchant img" style=" margin-top: 1vh;">
+        </div>
+        
+    </div>
+</section>
+    <section>
+        <ol class="chat" id="chat" style="padding-top: 35vh">
+        </ol>
+        <div class="typezone">
+            <form id="userChat">
+                <textarea type="text" placeholder="Welcome to my store, what questions do you have for me?" id="userInputField">
+                </textarea><input type="submit" class="send" id="send" value=""/>
+            </form>
+            </div>
+    </section>
+</body>
+</html>
