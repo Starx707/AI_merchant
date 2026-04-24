@@ -16,4 +16,4 @@ your own API key to be able to use the model I'm using.
 
 Once you got this key be sure to add this within a .env file to make the project work!
 
-> Then you're all set!
+Then you're all set!
